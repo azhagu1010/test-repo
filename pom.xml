@@ -44,9 +44,9 @@
 
   <distributionManagement>
     <repository>
-        <id>nexus-releases</id>
-        <name>releases</name>
-        <url>http://localhost:8081/repository/test-repo/</url>
+        <id>nexus-snapshots</id>
+        <name>snapshots</name>
+        <url>http://localhost:8081/repository/maven-snapshots</url>
     </repository>
   </distributionManagement>
 
