@@ -47,6 +47,11 @@
    <id>my-repo-id</id>
    <url>http://localhost:8081/repository/test-repo/</url>
   </repository>
+  <repository>
+        <id>nexus-releases</id>
+        <name>releases</name>
+        <url>http://localhost:8081/repository/test-repo/</url>
+    </repository>
  </distributionManagement>
 
   <build>
