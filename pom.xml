@@ -42,6 +42,13 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+  <repository>
+   <id>my-repo-id</id>
+   <url>http://localhost:8081/repository/test-repo/</url>
+  </repository>
+ </distributionManagement>
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
