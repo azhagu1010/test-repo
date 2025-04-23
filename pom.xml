@@ -43,12 +43,11 @@
   </dependencies>
 
   <distributionManagement>
-    <repository>
-        <id>nexus-snapshots</id>
-        <name>snapshots</name>
-        <url>http://localhost:8081/repository/maven-snapshots</url>
-    </repository>
-  </distributionManagement>
+  <repository>
+   <id>test-repo</id>
+   <url>http://localhost:8081/repository/test-repo/</url>
+  </repository>
+ </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
